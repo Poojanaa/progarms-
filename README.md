@@ -337,7 +337,34 @@ Enter a number: -25<br>
 The sum is 28<br>
 <br>
 <br>
-   **5.**
+**6.Do while loop for adding number not equal to zero**<br>
+#include <iostream><br>
+using namespace std;<br>
+int main()<br>
+{<br>
+	int num, sum = 0;<br>
+	do {<br>
+   cout << "Enter a number: ";<br>
+   cin >> num;<br>
+   sum += num;<br>
+   } while (num != 0);<br>
+	cout << "Sum is " << sum;<br>
+   return 0;<br>
+}<br>
+<br>
+**output:-**<br>
+Enter a number: 1<br>
+Enter a number: 3<br>
+Enter a number: -4<br>
+Enter a number: 2<br>
+Enter a number: 0<br>
+Sum is 2<br>
+
+
+   
+   
+ 
+   
    
 
    
