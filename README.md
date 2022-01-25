@@ -248,8 +248,8 @@ int main() {<br>
    return 0;<br>
 }<br>
 <br>
- **Output:-**<br>
-   1) Push in stack<br>
+**Output:-**<br>
+ 1) Push in stack<br>
 2) Pop from stack<br>
 3) Display stack<br>
 4) Exit<br>
@@ -274,10 +274,75 @@ Stack elements are: 4 2 <br>
 Enter choice: <br>
 4<br>
 Exit<br>
+<br>
+<br>
+ **4.Adding a 10 numbers using for loop**<br>
+   #include <iostream> <br>
+ using namespace std; <br>
+ 
+int main() <br>
+{ <br>
+    int i,arr[10],sum=0; <br>
+ 
+    cout<<"Enter 10 elements:"; <br>
+    for(i=0;i<10;++i) <br>
+        cin>>arr[i]; <br>
+ 
+    for(i=0;i<10;++i) <br>
+        sum=sum+arr[i]; <br>
+    cout<<"Sum of numbers is:"<<sum; <br>
+ 
+    return 0; <br>
+} <br>
+<br>
+<br>
+ **Output:-**<br>
+  Enter 10 elements:1<br>
+2<br>
+3<br>
+4<br>
+6<br>
+5<br>
+7<br>
+9<br>
+8<br>
+2<br>
+Sum of numbers is:47<br>
+<br>
+ **5.Adding a positive number using while loop**<br>
+ #include <iostream><br>
+using namespace std;<br>
+int main() {<br>
+    int number;<br>
+    int sum = 0;<br>
+    cout << "Enter a number: ";<br>
+    cin >> number;<br>
 
+    while (number >= 0) {<br>
+        sum += number;<br>
+        cout << "Enter a number: ";<br>
+        cin >> number;<br>
+    }<br>
+    cout << "\nThe sum is " << sum << endl;<br>
+    return 0;<br>
+}<br>
+<br>
+  **Output:-**<br>
+ <br>
+Enter a number: 0<br>
+Enter a number: 6<br>
+Enter a number: 9<br>
+Enter a number: 13<br>
+Enter a number: -25<br>
+The sum is 28<br>
+<br>
+<br>
+   **5.**
+   
 
-...Program finished with exit code 0
-Press ENTER to exit console.
+   
+   
+   
    
 
   
