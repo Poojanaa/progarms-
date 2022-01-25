@@ -104,7 +104,7 @@ void Display() {<br>
    }<br>
    cout<<"Queue elements are: ";<br>
    while (temp != NULL) {<br>
-      cout<<temp->data<<"";<br>
+      cout<<temp->data<<" ";<br>
       temp = temp->next;<br>
    }<br>
    cout<<endl;<br>
@@ -173,103 +173,107 @@ Enter your choice : <br>
 4<br>
 Exit<br>
 ****3.Stack using linkedlist****<br>
-   #include <iostream>
-using namespace std;
-struct Node {
-   int data;
-   struct Node *next;
-};
-struct Node* top = NULL;
-void push(int val) {
-   struct Node* newnode = (struct Node*) malloc(sizeof(struct Node));
-   newnode->data = val;
-   newnode->next = top;
-   top = newnode;
-}
-void pop() {
-   if(top==NULL)
-   cout<<"Stack Underflow"<<endl;
-   else {
-      cout<<"The popped element is "<< top->data <<endl;
-      top = top->next;
-   }
-}
-void display() {
-   struct Node* ptr;
-   if(top==NULL)
-   cout<<"stack is empty";
-   else {
-      ptr = top;
-      cout<<"Stack elements are: ";
-      while (ptr != NULL) {
-         cout<< ptr->data <<" ";
-         ptr = ptr->next;
-      }
-   }
-   cout<<endl;
-}
-int main() {
-   int ch, val;
-   cout<<"1) Push in stack"<<endl;
-   cout<<"2) Pop from stack"<<endl;
-   cout<<"3) Display stack"<<endl;
-   cout<<"4) Exit"<<endl;
-   do {
-      cout<<"Enter choice: "<<endl;
-      cin>>ch;
-      switch(ch) {
-         case 1: {
-            cout<<"Enter value to be pushed:"<<endl;
-            cin>>val;
-            push(val);
-            break;
-         }
-         case 2: {
-            pop();
-            break;
-         }
-         case 3: {
-            display();
-            break;
-         }
-         case 4: {
-            cout<<"Exit"<<endl;
-            break;
-         }
-         default: {
-            cout<<"Invalid Choice"<<endl;
-         }
-      }
-   }while(ch!=4);
-   return 0;
+   #include <iostream><br>
+using namespace std;<br>
+struct Node {<br>
+   int data;<br>
+   struct Node *next;<br>
+};<br>
+struct Node* top = NULL;<br>
+void push(int val) {<br>
+   struct Node* newnode = (struct Node*) malloc(sizeof(struct Node));<br>
+   newnode->data = val;<br>
+   newnode->next = top;<br>
+   top = newnode;<br>
+}<br>
+void pop() {<br>
+   if(top==NULL)<br>
+   cout<<"Stack Underflow"<<endl;<br>
+   else {<br>
+      cout<<"The popped element is "<< top->data <<endl;<br>
+      top = top->next;<br>
+   }<br>
+}<br>
+void display() {<br>
+   struct Node* ptr;<br>
+   if(top==NULL)<br>
+   cout<<"stack is empty";<br>
+   else {<br>
+      ptr = top;<br>
+      cout<<"Stack elements are: ";<br>
+      while (ptr != NULL) {<br>
+         cout<< ptr->data <<" ";<br>
+         ptr = ptr->next;<br>
+      }<br>
+      }<br>
+      }<br>
+      }<br>
+      }<br>
+   cout<<endl;<br>
+      }<br>
+}<br>
+int main() {<br>
+   int ch, val;<br>
+   cout<<"1) Push in stack"<<endl;<br>
+   cout<<"2) Pop from stack"<<endl;<br>
+   cout<<"3) Display stack"<<endl;<br>
+   cout<<"4) Exit"<<endl;<br>
+   do {<br>
+      cout<<"Enter choice: "<<endl;<br>
+      cin>>ch;<br>
+      switch(ch) {<br>
+         case 1: {<br>
+            cout<<"Enter value to be pushed:"<<endl;<br>
+            cin>>val;<br>
+            push(val);<br>
+            break;<br>
+         }<br>
+         case 2: {<br>
+            pop();<br>
+            break;<br>
+         }<br>
+         case 3: {<br>
+            display();<br>
+            break;<br>
+         }<br>
+         case 4: {<br>
+            cout<<"Exit"<<endl;<br>
+            break;<br>
+         }<br>
+         default: {<br>
+            cout<<"Invalid Choice"<<endl;<br>
+         }<br>
+      }<br>
+   }while(ch!=4);<br>
+   return 0;<br>
 }<br>
 <br>
  **Output:-**<br>
-   1) Push in stack
-2) Pop from stack
-3) Display stack
-4) Exit
-Enter choice: 
-1
-Enter value to be pushed:
-2
-Enter choice: 
-1
-Enter value to be pushed:
-4
-Enter choice: 
-1
-Enter value to be pushed:
-6
-Enter choice: 
-2
-The popped element is 6
-Enter choice: 
-3
-Stack elements are: 4 2 
-Enter choice: 
-4
-Exit
+   1) Push in stack<br>
+2) Pop from stack<br>
+3) Display stack<br>
+4) Exit<br>
+Enter choice: <br>
+1<br>
+Enter value to be pushed:<br>
+2<br>
+Enter choice: <br>
+1<br>
+Enter value to be pushed:<br>
+4<br>
+Enter choice: <br>
+1<br>
+Enter value to be pushed:<br>
+6<br>
+Enter choice: <br>
+2<br>
+The popped element is 6<br>
+Enter choice: <br>
+3<br>
+Stack elements are: 4 2 <br>
+Enter choice: <br>
+4<br>
+Exit<br>
 
 
 ...Program finished with exit code 0
