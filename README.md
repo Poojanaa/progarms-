@@ -359,6 +359,140 @@ Enter a number: -4<br>
 Enter a number: 2<br>
 Enter a number: 0<br>
 Sum is 2<br>
+<br>
+7. binary search<br>
+	#include <iostream> 
+ 
+using namespace std; 
+ 
+int main() 
+{ 
+    int i,arr[10],sum1=0,sum2=0,sum3=0,n; 
+     char ch;
+    do{
+ 	 cout<<"ENTER CHOICE\n"<<"1.For\n"<<"2.While\n"<<"3.Do While\n";
+    cout<<"Make a choice: ";
+    cin>>n;
+     
+    switch(n)
+    {
+        case 1:  
+        	cout<<"Enter 10 elements:\n"; 
+    for(i=0;i<10;++i) 
+      cin>>arr[i]; 
+	  for(i=0;i<10;++i) 
+        sum1=sum1+arr[i]; 
+    
+    cout<<"Sum of numbers is:"<<sum1; 
+ 
+            
+            break;
+         
+        case 2 : 
+        	cout<<"Enter 10 elements:\n"; 
+        i=0;
+        while(i<10)
+        {
+        	cin>>arr[i];
+        	i++;
+		}
+		i=0;
+		while(i<10) 
+		{
+			sum2=sum2+arr[i];
+			i++; 
+		}
+        cout<<"Sum of numbers is:"<<sum2; 
+            
+            break;
+         
+        case 3 : 
+        cout<<"Enter 10 elements:\n"; 
+        i=0;
+        do{
+        		cin>>arr[i];
+        		i++;
+		}while(i<10);
+        
+         i=0;
+        do{
+        		sum3=sum3+arr[i];
+        		i++;
+		}while(i<10);
+		 cout<<"Sum of numbers is:"<<sum3; 
+            break;
+             
+        default : 
+            cout<<"Invalid Choice\n";
+    }
+     
+    cout<<"\nDo you want to continue ? : ";
+    cin>>ch;
+ 
+    }while(ch=='Y'||ch=='y');
+     
+    return 0;
+}<br>
+<br>
+output:-
+<br>
+ENTER CHOICE
+1.For
+2.While
+3.Do While
+Make a choice: 1
+Enter 10 elements:
+1
+2
+
+3
+4
+4
+5
+6
+7
+8
+9
+Sum of numbers is:49
+Do you want to continue ? : y
+ENTER CHOICE
+1.For
+2.While
+3.Do While
+Make a choice: 2
+Enter 10 elements:
+2
+1
+3
+4
+5
+6
+7
+8
+9
+5
+Sum of numbers is:50
+Do you want to continue ? : y
+ENTER CHOICE
+1.For
+2.While
+3.Do While
+Make a choice: 3
+Enter 10 elements:
+2
+3
+1
+4
+5
+6
+7
+8
+9
+1
+Sum of numbers is:46
+Do you want to continue ? : \n
+
+	
 
 
    
