@@ -1,4 +1,4 @@
-****Progarms****<br>
+****DataStructure****<br>
 ****1.Linkedlist program for inserting****<br>
 #include <iostream><br>
 using namespace std;<br>
@@ -436,61 +436,60 @@ int main()
 <br>
 output:-
 <br>
-ENTER CHOICE
-1.For
-2.While
-3.Do While
-Make a choice: 1
-Enter 10 elements:
-1
-2
-
-3
-4
-4
-5
-6
-7
-8
-9
-Sum of numbers is:49
-Do you want to continue ? : y
-ENTER CHOICE
-1.For
-2.While
-3.Do While
-Make a choice: 2
-Enter 10 elements:
-2
-1
-3
-4
-5
-6
-7
-8
-9
-5
-Sum of numbers is:50
-Do you want to continue ? : y
-ENTER CHOICE
-1.For
-2.While
-3.Do While
-Make a choice: 3
-Enter 10 elements:
-2
-3
-1
-4
-5
-6
-7
-8
-9
-1
-Sum of numbers is:46
-Do you want to continue ? : \n
+ENTER CHOICE<br>
+1.For<br>
+2.While<br>
+3.Do While<br>
+Make a choice: 1<br>
+Enter 10 elements:<br>
+1<br>
+2<br>
+3<br>
+4<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+Sum of numbers is:49<br>
+Do you want to continue ? : y<br>
+ENTER CHOICE<br>
+1.For<br>
+2.While<br>
+3.Do While<br>
+Make a choice: 2<br>
+Enter 10 elements:<br>
+2<br>
+1<br>
+3<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+5<br>
+Sum of numbers is:50<br>
+Do you want to continue ? : y<br>
+ENTER CHOICE<br>
+1.For<br>
+2.While<br>
+3.Do While<br>
+Make a choice: 3<br>
+Enter 10 elements:<br>
+2<br>
+3<br>
+1<br>
+4<br>
+5<br>
+6<br>
+7<br>
+8<br>
+9<br>
+1<br>
+Sum of numbers is:46<br>
+Do you want to continue ? : \n <br>
 
 	
 
